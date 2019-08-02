@@ -1,4 +1,5 @@
 import 'package:days_app_dev/basehome/base_home_screen.dart';
+import 'package:days_app_dev/finallook/parent_home_screen.dart';
 import 'package:flutter/material.dart';
 
 class IntroScreen extends StatelessWidget {
@@ -61,7 +62,7 @@ class _IntroScreenState extends StatelessWidget {
                         Expanded(
                           child: FlatButton(
                             onPressed: () {
-                              Navigator.push(context, MaterialPageRoute(builder: (contextt) => BaseHomeScreen()));
+                              Navigator.push(context, MaterialPageRoute(builder: (contextt) => ParentHomeScreen()));
                             },
                             padding: EdgeInsets.all(20.0),
                             color: Colors.white.withOpacity(0.2),
